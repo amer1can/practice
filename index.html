@@ -10,14 +10,26 @@
 </head>
 
 <body>
+    <div class="wrapper-parallax">
+        <div class="container-parallax">
+            <div id="scene">
+                <div data-depth="0.2" class="f1">My first Layer!</div>
+                <div data-depth="0.6" class="f2">My second Layer!</div>
+            </div>
+            <div id="scene2">
+                <div data-depth="0.2">
+                    <img src="./parallax/coffee_beans_PNG9271.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="wrapper">
         <h1 class="swiper-title">Swiper Title</h1>
-
-        <!-- Slider main container -->
         <div class="image-slider swiper-container">
-            <!-- Additional required wrapper -->
             <div class="image-slider__wrapper swiper-wrapper">
-                <!-- Slides -->
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
                         <img src="/img/1F6A3127.jpg" alt="1F6A3127">
@@ -57,18 +69,20 @@
                     </div>
                 </div>
             </div>
+
             <!-- If we need pagination -->
-            <!-- <div class="swiper-pagination"></div> -->
+            <div class="swiper-pagination"></div>
 
             <!-- If we need navigation buttons -->
-            <!-- <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div> -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
 
             <!-- If we need scrollbar -->
             <!-- <div class="swiper-scrollbar"></div> -->
         </div>
     </div>
 
+    <script src="/parallax/parallax.js"></script>
     <script src="/swiper/swiper-bundle.js"></script>
     <script src="js/script.js"></script>
 </body>
