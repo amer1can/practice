@@ -13,7 +13,6 @@
 //Инициализация Swiper'a
 //внутри класс который станет Swiper'om
 new Swiper('.image-slider', {
-<<<<<<< HEAD
 // настройки:
   direction: 'horizontal', //направление, либо 'vertical'
   loop: true, //картинки идут по кругу
