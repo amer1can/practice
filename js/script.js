@@ -1,8 +1,4 @@
-//Инициализация Swiper'a
-//внутри класс который станет Swiper'om
-new Swiper('.image-slider', {
-  
-});
+
 
 let response = await fetch('https://github.com/amer1can/movee/post.js');
 
